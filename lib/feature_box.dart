@@ -34,11 +34,14 @@ class FeatureBox extends StatelessWidget {
               ),
             ),
           ),
-          Text(
-            descriptionText,
-            style: const TextStyle(
-              fontSize: 18.0,
-              fontFamily: 'Cera Pro',
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Text(
+              descriptionText,
+              style: const TextStyle(
+                fontSize: 18.0,
+                fontFamily: 'Cera Pro',
+              ),
             ),
           ),
         ],

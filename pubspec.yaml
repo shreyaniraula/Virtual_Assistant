@@ -14,7 +14,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   speech_to_text: ^6.3.0
   http: ^1.1.0
-  chat_gpt_sdk: ^2.2.4
+  flutter_tts: ^3.8.1
 
 dev_dependencies:
   flutter_test:
